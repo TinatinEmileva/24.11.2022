@@ -5,7 +5,7 @@ body{
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .navbar a{
-  display: flex;
+  display: block;
   text-decoration: none;
   font-size: 20px;
 margin: 5px;
@@ -14,12 +14,22 @@ padding: 10px 15px;
 margin-top: 20px;
 
 }
+.container{
+  max-width: 987px;
+  margin: 0 auto;
+}
+.navbar{
+  padding: 15px 0;
+
+}
 a:hover{
   color: white;
   background-color: blue;
 }
-ul{
+.navbar ul{
   display: flex;
 list-style-type: none;
 justify-content: center;
+padding: 0;
+margin: 0;
 }
